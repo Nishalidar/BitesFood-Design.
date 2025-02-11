@@ -13,17 +13,12 @@
  .landing-page{
     width: 100%;
     height: 100vh;
-    /* background-color: skyblue; */
-    /* overflow: hidden; */
- /* background-color: #0B161A; */
- 
  }
  
  .navbar{
     width: 100%;
     height: 13vh;
     display: flex;
- 
     background-color: #0B161A;
  }
  
@@ -44,11 +39,10 @@
  .navbar .nav-left p{
     color: white;
     font-size: 1vw;
-    /* text-align: center; */
  }
  
  .nav-center{
-    width: 54%;
+    width: 56%;
     height: 13vh;
     /* background-color: rgb(223, 151, 64); */
     padding-top: 1.9vw;
@@ -65,6 +59,7 @@
     font-size: 1.5vw;
     /* padding-left: 1.9vw; */
     margin-left: 1.9vw;
+    text-transform: capitalize;
  }
  
  .nav-center nav a:hover{
@@ -99,7 +94,7 @@
  .wrapper{
     width: 100%;
     height: 90vh;
-    background-image: url(/media/bg1.jpg);
+    background-image: url(/media/background.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -194,7 +189,7 @@
     width: 30%;
     height: 100%;
     /* background-color: yellowgreen; */
-    background-image: url(/media/left.jpg);
+    background-image: url(/media/left\ \(1\).png);
     background-position: bottom;
     background-size: cover;
  }
@@ -212,7 +207,7 @@
     width: 30%;
     height: 100%;
     /* background-color: #d64ca8; */
-    background-image: url(/media/right.jpg);
+    background-image: url(/media/right.png);
     background-position: bottom;
     background-size: cover;
  }
@@ -271,7 +266,7 @@
     /* background-color: khaki; */
     background-position: center;
     background-size: cover;
-    background-image: url(/media/footer.jpg);
+    background-image: url(/media/footer.png);
  }
  
  .footer-right{
